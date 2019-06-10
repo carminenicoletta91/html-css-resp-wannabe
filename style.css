@@ -70,12 +70,12 @@ img{
 
 
 /*versione per ipad*/
-@media screen and (max-width:768px){
+@media screen and (width:768px){
   body{
     font-size:15px;
   }
   .row{
-    width:768px;
+    width:755px;
     margin-left:0;
     margin-top:0;
     margin-right:0;
@@ -108,4 +108,25 @@ img{
    font-size:14px;
    font-family:arial;
  }
+}
+
+/*versione per smartphone*/
+@media screen and (max-width:400px) {
+  .row{
+     width:350px;
+    margin-left:0;
+    margin-top:0;
+    margin-right:0;
+  }
+  #lezioni .row > .left, #lezioni .row > .right{
+    float:none;
+    width:100%;
+
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    width: 100%;
+  }
 }
